@@ -1,5 +1,53 @@
 body {
-    background-color: rgb(146, 74, 22);
+    background-color: chocolate;
+    height: auto;
+    width: auto;
+}
+
+header {
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(171, 72, 2);
+    align-items: space-around;
+    vertical-align: middle;
+}
+
+header a {
+    padding-left: 30px;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+}
+
+footer {
+    position: fixed;
+    height: 120px ;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(171, 72, 2);
+}
+
+footer a {
+    position: absolute;
+    top: 50%;
+}
+
+.index {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: block;
+    overflow: hidden;
+}
+
+.t2psemalt {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: block;
+    overflow: hidden;
 }
 
 .center {
@@ -8,6 +56,7 @@ body {
     width: 80%;
     padding: 10px;
     text-align: center;
+    align-content: center;
 }
 
 .pealkiri {
@@ -25,16 +74,24 @@ body {
 
 a {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     color: black;
     text-decoration: dotted;
 }
 
 .tekst {
-    size: 30px;
+    font-size: 60px;
     color: hwb(33 77% 0%);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 700px;
+}
+
+li {
+    font-size: 40px;
+    color: hwb(34 9% 80%);
+    font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
     width: 700px;
 }
